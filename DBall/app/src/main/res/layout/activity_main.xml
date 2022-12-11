@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout_hearts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/heart1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_heart" />
+        <ImageView
+            android:id="@+id/heart2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_heart" />
+        <ImageView
+            android:id="@+id/heart3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_heart" />
+
+
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/Table_rocks"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_above="@+id/Button_right"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-60dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:src="@drawable/fire_ball" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/Button_right"
+        android:id="@+id/car"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:src="@drawable/goku"
+            android:layout_weight="1"
+            android:visibility="invisible"
+
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:src="@drawable/goku"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:src="@drawable/goku"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/Button_right"
+        android:layout_width="100dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/right_arrow" />
+
+    <ImageView
+        android:id="@+id/Button_left"
+        android:layout_width="100dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/left_arrow" />
+
+</RelativeLayout>
